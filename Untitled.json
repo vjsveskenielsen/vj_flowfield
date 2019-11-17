@@ -1,0 +1,165 @@
+{
+  "classArray" : [
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider",
+    "Slider"
+  ],
+  "keyArray" : [
+    "speed",
+    "magnitude",
+    "size",
+    "flow change",
+    "difference"
+  ],
+  "uiBuilder" : {
+    "speed" : {
+      "grdFrm" : "{{0, 0}, {5, 5}}",
+      "publishNormOSCQ" : true,
+      "maxRange" : 3,
+      "minRange" : 0,
+      "sndrs" : [
+        {
+          "momentarySenderType" : 0,
+          "normalizeFlag" : false,
+          "msgAddress" : "\/flowfield\/speed",
+          "floatInvertFlag" : false,
+          "outputPort" : 9999,
+          "boolInvertFlag" : false,
+          "boolThreshVal" : 0.1,
+          "highIntVal" : 100,
+          "outputIPAddress" : "127.0.0.1",
+          "outputLabel" : "local",
+          "dataSenderType" : 2,
+          "lowIntVal" : 0,
+          "enabled" : true,
+          "intInvertFlag" : false,
+          "senderType" : 4
+        }
+      ],
+      "val" : 0.9755120519016399,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/Clock 1\/MeasurePosition"
+        }
+      ]
+    },
+    "magnitude" : {
+      "grdFrm" : "{{10, 0}, {6, 5}}",
+      "publishNormOSCQ" : true,
+      "minRange" : -1,
+      "sndrs" : [
+        {
+          "momentarySenderType" : 0,
+          "normalizeFlag" : false,
+          "msgAddress" : "\/flowfield\/magnitude",
+          "floatInvertFlag" : false,
+          "outputPort" : 9999,
+          "boolInvertFlag" : false,
+          "boolThreshVal" : 0.1,
+          "highIntVal" : 100,
+          "outputIPAddress" : "127.0.0.1",
+          "outputLabel" : "local",
+          "dataSenderType" : 2,
+          "lowIntVal" : 0,
+          "enabled" : true,
+          "intInvertFlag" : false,
+          "senderType" : 4
+        }
+      ],
+      "val" : 0.3566856301034163,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "difference" : {
+      "grdFrm" : "{{16, 0}, {6, 5}}",
+      "publishNormOSCQ" : true,
+      "minRange" : 0,
+      "sndrs" : [
+        {
+          "momentarySenderType" : 0,
+          "normalizeFlag" : true,
+          "msgAddress" : "\/flowfield\/inc",
+          "floatInvertFlag" : false,
+          "outputPort" : 9999,
+          "boolInvertFlag" : false,
+          "boolThreshVal" : 0.1,
+          "highIntVal" : 100,
+          "outputIPAddress" : "127.0.0.1",
+          "outputLabel" : "local",
+          "dataSenderType" : 2,
+          "lowIntVal" : 0,
+          "enabled" : true,
+          "intInvertFlag" : false,
+          "senderType" : 4
+        }
+      ],
+      "val" : 0.0411321151629559,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "VVGridSize" : "{28, 5}",
+    "flow change" : {
+      "grdFrm" : "{{5, 0}, {5, 5}}",
+      "publishNormOSCQ" : true,
+      "minRange" : 0,
+      "sndrs" : [
+        {
+          "momentarySenderType" : 0,
+          "normalizeFlag" : true,
+          "msgAddress" : "\/flowfield\/flow_change",
+          "floatInvertFlag" : false,
+          "outputPort" : 9999,
+          "boolInvertFlag" : false,
+          "boolThreshVal" : 0.1,
+          "highIntVal" : 100,
+          "outputIPAddress" : "127.0.0.1",
+          "outputLabel" : "local",
+          "dataSenderType" : 2,
+          "lowIntVal" : 0,
+          "enabled" : true,
+          "intInvertFlag" : false,
+          "senderType" : 4
+        }
+      ],
+      "val" : 0.247496727660527,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "size" : {
+      "grdFrm" : "{{22, 0}, {6, 5}}",
+      "publishNormOSCQ" : true,
+      "minRange" : 0,
+      "sndrs" : [
+        {
+          "momentarySenderType" : 0,
+          "normalizeFlag" : true,
+          "msgAddress" : "\/flowfield\/particle_size",
+          "floatInvertFlag" : false,
+          "outputPort" : 9999,
+          "boolInvertFlag" : false,
+          "boolThreshVal" : 0.1,
+          "highIntVal" : 100,
+          "outputIPAddress" : "127.0.0.1",
+          "outputLabel" : "local",
+          "dataSenderType" : 2,
+          "lowIntVal" : 0,
+          "enabled" : true,
+          "intInvertFlag" : false,
+          "senderType" : 4
+        }
+      ],
+      "val" : 0.2236224767031324,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "VVGridMode" : true
+  }
+}
