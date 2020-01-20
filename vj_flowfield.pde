@@ -1,19 +1,3 @@
-/*
-This is an application for live visual performance.
-It is based on this flowfield Processing sketch:
-https://github.com/daneden/processing-flow-field
-
-The app is built on top of vj_boilerplate and includes
-a JSON layout for a VDMX control surface.
-
-It relies on:
-The Syphon library by Andres Colubri
-The Midibus library by Severin Smith
-oscP5 and controlP5 by Andreas Schlegel
-
-Do whatever you please with it.
-Marius Juul Nielsen // Sveskenielsen
-*/
 import codeanticode.syphon.*;
 import controlP5.*;
 import themidibus.*;
