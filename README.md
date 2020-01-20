@@ -16,9 +16,9 @@ and sending normalized floats 0.0-1.0
 e.g. /flowfield/magnitude
 
 It relies on:
-The Syphon library by Andres Colubri
-The Midibus library by Severin Smith
-oscP5 and controlP5 by Andreas Schlegel
+* The Syphon library by Andres Colubri
+* The Midibus library by Severin Smith
+* oscP5 and controlP5 by Andreas Schlegel
 
 Do whatever you please with it.
 Marius Juul Nielsen // Sveskenielsen
