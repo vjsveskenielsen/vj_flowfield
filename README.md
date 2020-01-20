@@ -9,11 +9,11 @@ https://github.com/daneden/processing-flow-field
 The app is built on top of vj_boilerplate and includes
 a JSON layout for a VDMX control surface that can control
 parameters through OSC.
-Default OSC address is /flowfield/ @ port 9999
+Default OSC address is ```/flowfield/ @ port 9999```
 
 You control parameters by appending their names to the OSC address
 and sending normalized floats 0.0-1.0
-e.g. /flowfield/magnitude
+e.g. ```/flowfield/magnitude```
 
 It relies on:
 * The Syphon library by Andres Colubri
