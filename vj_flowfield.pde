@@ -160,3 +160,7 @@ void newFlowField() {
     particles[i] = new Particle();
   }
 }
+
+void keyPressed() {
+  saveFrame("screenshot");
+}
