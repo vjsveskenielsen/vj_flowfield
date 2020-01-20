@@ -4,6 +4,8 @@ This is an application for live visual performance.
 It is based on this flowfield Processing sketch:
 https://github.com/daneden/processing-flow-field
 
+![Screenshot of vj_flowfield](https://raw.githubusercontent.com/vjsveskenielsen/vj_flowfield/master/vj_flowfield%20screenshot.png)
+
 The app is built on top of vj_boilerplate and includes
 a JSON layout for a VDMX control surface that can control
 parameters through OSC.
